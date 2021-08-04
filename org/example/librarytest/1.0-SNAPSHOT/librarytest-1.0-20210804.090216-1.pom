@@ -16,6 +16,14 @@
         <github.maven-plugin>0.12</github.maven-plugin>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.telegram</groupId>
+            <artifactId>telegrambots</artifactId>
+            <version>4.9.2</version>
+        </dependency>
+    </dependencies>
+
     <distributionManagement>
         <repository>
             <id>internal.repo</id>
